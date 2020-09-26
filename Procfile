@@ -1,1 +1,1 @@
-web: gunicorn brandclassify2.wsgi --log-file -
+web: gunicorn app:app
